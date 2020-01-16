@@ -10,6 +10,8 @@ import Rank from "./components/Rank/Rank";
 import Modal from "./components/Modal/Modal";
 import Profile from "./components/Profile/Profile";
 import "./App.css";
+import packageJson from "../package.json";
+global.appVersion = packageJson.version;
 
 const particlesOptions = {
   particles: {
